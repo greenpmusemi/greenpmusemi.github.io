@@ -62,7 +62,11 @@ a {
 }
 /* Home */
 #index_banner {
-  background-image: url("./../img/cover.jpeg");
+  background-image: linear-gradient(
+    76.9deg,
+    rgba(255, 90, 90, 1) 27.2%,
+    rgba(130, 5, 255, 1) 79.9%
+  );
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -377,4 +381,13 @@ footer a.text-light:hover {
 
 .team-details h5 {
   padding: 6%;
+}
+
+canvas {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
