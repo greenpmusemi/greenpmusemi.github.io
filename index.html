@@ -68,10 +68,14 @@ title: Home
             filter: hue-rotate(360deg);
         }
     }
-
+    @media only screen and (min-width: 600px){
+        .container-animation{
+            height: 85vh;
+        }
+    } 
     @media only screen and (max-width: 600px) {
         .container-animation {
-            height: 150vh;
+            height: 100vh;
         }
 
         .container-animation h1 {
@@ -80,7 +84,7 @@ title: Home
     }
 </style>
 
-<div class="container-animation" style="height: 65vh;">
+<div class="container-animation">
     <div class="row-animation">
         <div class="hexagon"></div>
         <div class="hexagon"></div>

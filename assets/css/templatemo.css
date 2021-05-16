@@ -57,6 +57,9 @@ a {
   margin-left: -75px;
 }
 /* Main Nav */
+.nav-link{
+  font-size: 20px;
+}
 #main_nav .nav-item .nav-link:hover {
   color: #fff;
 }
