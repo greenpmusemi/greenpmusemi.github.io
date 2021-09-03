@@ -27,7 +27,18 @@
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="{{ site.baseurl }}index.html">
-               <img src="/assets/img/logo/logo.png" width="50%">
+                <style>
+                    .navbar-logo{
+                        width: 50%;
+                    }
+
+                    @media screen and (max-width:600px) {
+                        .navbar-logo{
+                            width: 150px;
+                        }
+                    }
+                </style>
+               <img src="/assets/img/logo/logo.png" class="navbar-logo">
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
